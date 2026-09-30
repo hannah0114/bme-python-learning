@@ -1,0 +1,24 @@
+def calculate_bmi(weight, height):
+    """
+    计算BMI指数
+    weight:体重(kg)
+    height:身高(m)
+    返回bmi值和评价
+    """
+    bmi = weight / (height ** 2)
+    if bmi < 18.5:
+        res = "偏瘦"
+    elif bmi < 24:
+        res = "正常"
+    elif bmi < 28:
+        res = "超重"
+    else:
+        res = "肥胖"
+    return bmi, res
+
+# 测试
+if __name__ == "__main__":
+    w = float(input("请输入体重(kg):"))
+    h = float(input("请输入身高(m):"))
+    bmi_val, comment = calculate_bmi(w, h)
+    print(f"BMI = {bmi_val:.2f}，结果：{comment}")
