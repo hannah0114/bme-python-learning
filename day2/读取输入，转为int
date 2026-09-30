@@ -1,0 +1,5 @@
+# input默认拿到字符串，需要转int
+user_input = input("请输入一个数字：")
+num = int(user_input)
+result = num * 2
+print(f"输入数字的2倍 = {result}")

@@ -1,0 +1,8 @@
+# 小写下划线命名规范
+sample_value = 10
+patient_age = 25
+tumor_size = 3.2
+
+print(sample_value)
+print(patient_age)
+print(tumor_size)

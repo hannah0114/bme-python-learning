@@ -1,0 +1,8 @@
+s = "20"
+num_str = int(s)
+num_float = float(s)
+back_str = str(num_str)
+
+print(num_str, type(num_str))
+print(num_float, type(num_float))
+print(back_str, type(back_str))

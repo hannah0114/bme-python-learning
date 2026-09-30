@@ -1,0 +1,10 @@
+probe_name = "荧光探针"
+concentration = 50
+
+# 字符串拼接
+s1 = probe_name + " 浓度:" + str(concentration)
+print(s1)
+
+# f-string格式化
+s2 = f"{probe_name} 的浓度是 {concentration} nM"
+print(s2)

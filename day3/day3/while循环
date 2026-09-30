@@ -1,0 +1,12 @@
+target = 6
+while True:
+    guess = int(input("请猜一个1~10数字："))
+    if guess == target:
+        print("猜对了！")
+        break  # 猜对，跳出循环
+    elif guess < target:
+        print("太小了，继续猜")
+        continue
+    else:
+        print("太大了，继续猜")
+        continue
