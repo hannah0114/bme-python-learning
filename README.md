@@ -1,5 +1,5 @@
 # 生物医学工程-Python学习
-> 研零Python学习打卡，Day1~DayN
+> 研一Python学习打卡，Day1~DayN
 
 ## 目录
 - 第1天：环境搭建、基础输出变量
